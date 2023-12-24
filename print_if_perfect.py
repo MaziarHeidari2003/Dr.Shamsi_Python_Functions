@@ -1,3 +1,6 @@
+#PROBLEM 6
+
+
 def main():
     """
     So its the main function where the user is promped for a value and we pass the value to check_if_perfect function, we are using a while loop to reprompt the user until he inputs a perfect number 

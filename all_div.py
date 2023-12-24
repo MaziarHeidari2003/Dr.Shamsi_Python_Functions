@@ -1,3 +1,7 @@
+#PROBLEM 4
+
+
+
 def main():
     """
     So its the main function where the user is promped for a value and we pass the value to all_div function

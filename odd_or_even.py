@@ -2,25 +2,27 @@
 
 
 def main():
-  print(even_backwards_digit(123))
-
   amount = int(input('How many numbers you are going to input? '))
   for i in range(amount):
     num = int(input('Number: '))
+    if num % 2 == 0:
+      print(even_backwards_digit(num))
+    else:
+      print(odd_sum_digit(num))
 
 
 def odd_sum_digit(num):
+  sum = 0
   while num > 0:
-    sum = num % 10
+    sum += num % 10
     num //= 10
   return sum
 
 def even_backwards_digit(num):
-  n = 0
+  new_num = 0
   while num > 0:
-    new_num = (num % 10) * (10 ** n)
+    new_num = (num % 10)+ new_num * 10
     num //= 10
-    n += 1
   return new_num
 
 

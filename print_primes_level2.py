@@ -1,7 +1,12 @@
+#PROBLEM 3
+
+
+
 def main():
   """
-  So its the main function where the user is promoed for a natural value
-  nad then the print_prime function is being done for n times
+  So its the main function where the user is promped for a natural value
+  and then the print_prime function is being done for n times 
+  we are going to this for every input given by the user until the input is 0
   """
   n = int(input('Enter the natural number: '))
   while n != 0:

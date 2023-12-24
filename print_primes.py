@@ -1,3 +1,7 @@
+#PROBLEM 2
+
+
+
 def main():
   """
   So its the main function where the user is promoed for a natural value
